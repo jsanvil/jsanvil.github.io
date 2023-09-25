@@ -1,0 +1,38 @@
+:root {
+    --color1: #21589c;
+    --color2: #219C90;
+    --color3: #E9B824;
+    --color4: #EE9322;
+    --color5: #D83F31;
+    --color-recess: hsl(0, 0%, 81%);
+}
+
+td {
+    color: white;
+}
+
+.dwec:hover,
+.diw:hover,
+.dwes:hover {
+    scale: 1.2;
+    transition: 0.2s;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: black 3px 3px;
+}
+
+.dwec {
+    background-color: var(--color2) !important;
+}
+
+.diw {
+    background-color: var(--color3) !important;
+}
+
+.dwes {
+    background-color: var(--color1) !important;
+}
+
+.recess {
+    background-color: var(--color-recess);
+}
